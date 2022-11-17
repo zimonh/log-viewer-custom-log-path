@@ -1,13 +1,6 @@
-------------------------DRAFT-----------------------
-
-
-
-
-
-
 <div align="center">
     <p>
-        <h1>Log Viewer<br/>Easy-to-use, fast, and beautiful</h1>
+        <h1>Log Viewer Fork with one extra config param<br/>Easy-to-use, fast, and beautiful</h1>
     </p>
 </div>
 
