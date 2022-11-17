@@ -208,6 +208,6 @@ class LogViewerService
             return 'unit-tests';
         }
 
-        return InstalledVersions::getPrettyVersion('opcodesio/log-viewer') ?? 'dev-main';
+        return InstalledVersions::getPrettyVersion('zimonh/log-viewer') ?? 'dev-main';
     }
 }

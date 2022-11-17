@@ -146,7 +146,7 @@ Example:
 }
 ```
 
-Proceed with `composer require opcodesio/log-viewer`.
+Proceed with `composer require zimonh/log-viewer`.
 
 ### 📌 Step 6
 

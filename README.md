@@ -76,7 +76,7 @@ By default, the application is available at: `{APP_URL}/log-viewer`.
 
 ### Config file
 
-To publish the [config file](https://github.com/opcodesio/log-viewer/blob/main/config/log-viewer.php), run:
+To publish the [config file](https://github.com/zimonh/log-viewer/blob/main/config/log-viewer.php), run:
 
 ```bash
 php artisan vendor:publish --tag="log-viewer-config"

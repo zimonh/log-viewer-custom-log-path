@@ -5,12 +5,13 @@
     "keywords": [
         "arukompas",
         "opcodesio",
+        "zimonh",
         "laravel",
         "logs",
         "log viewer",
         "better-log-viewer"
     ],
-    "homepage": "https://github.com/opcodesio/log-viewer",
+    "homepage": "https://github.com/zimonh/log-viewer-custom-log-path",
     "license": "MIT",
     "authors": [
         {

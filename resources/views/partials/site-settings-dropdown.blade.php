@@ -52,7 +52,7 @@
                 <span>Theme: <span x-html="$store.logViewer.theme" class="font-semibold"></span></span>
             </button>
 
-            <a href="https://www.github.com/opcodesio/log-viewer" target="_blank">
+            <a href="https://www.github.com/zimonh/log-viewer-custom-log-path" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><use href="#icon-question" /></svg>
                 Help
             </a>
