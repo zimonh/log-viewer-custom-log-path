@@ -6,14 +6,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Log Viewer Domain
+    | Path to the log folder
     |--------------------------------------------------------------------------
-    | You may change the domain where Log Viewer should be active.
-    | If the domain is empty, all domains will be valid.
+    | Default is the <project>storage/logs
     |
     */
 
-    'route_domain' => null,
+    'path' => null,
 
     /*
     |--------------------------------------------------------------------------
