@@ -1,10 +1,10 @@
 {
-    "name": "log-viewer",
-    "author": "Arunas Skirius <arunas@belltastic.com>",
+    "name": "log-viewer-custom-log-path",
+    "author": "Simon <zim@gmail.com.com>",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "https://github.com/zimonh/log-viewer.git"
+        "url": "https://github.com/zimonh/log-viewer-custom-log-path.git"
     },
     "scripts": {
         "dev": "mix",
