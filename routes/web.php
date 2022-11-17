@@ -1,13 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Http\Controllers\DownloadFileController;
-use Opcodes\LogViewer\Http\Controllers\DownloadFolderController;
-use Opcodes\LogViewer\Http\Controllers\IndexController;
-use Opcodes\LogViewer\Http\Controllers\IsScanRequiredController;
-use Opcodes\LogViewer\Http\Controllers\ScanFilesController;
-use Opcodes\LogViewer\Http\Controllers\SearchProgressController;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Http\Controllers\DownloadFileController;
+use Zimonh\LogViewer\Http\Controllers\DownloadFolderController;
+use Zimonh\LogViewer\Http\Controllers\IndexController;
+use Zimonh\LogViewer\Http\Controllers\IsScanRequiredController;
+use Zimonh\LogViewer\Http\Controllers\ScanFilesController;
+use Zimonh\LogViewer\Http\Controllers\SearchProgressController;
 
 Route::domain(LogViewer::getRouteDomain())
     ->middleware(LogViewer::getRouteMiddleware())

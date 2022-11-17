@@ -1,15 +1,15 @@
 <?php
 
-namespace Opcodes\LogViewer\Facades;
+namespace Zimonh\LogViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogFileCollection;
-use Opcodes\LogViewer\LogFolder;
-use Opcodes\LogViewer\LogFolderCollection;
+use Zimonh\LogViewer\LogFile;
+use Zimonh\LogViewer\LogFileCollection;
+use Zimonh\LogViewer\LogFolder;
+use Zimonh\LogViewer\LogFolderCollection;
 
 /**
- * @see \Opcodes\LogViewer\LogViewerService
+ * @see \Zimonh\LogViewer\LogViewerService
  *
  * @method static string version()
  * @method static LogFolder[]|LogFolderCollection getFilesGroupedByFolder()

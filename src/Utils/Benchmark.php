@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Zimonh\LogViewer\Utils;
 
 class Benchmark
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Zimonh\LogViewer;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Facades\LogViewer;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class LogFolder

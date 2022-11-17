@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Zimonh\LogViewer\Http\Controllers;
 
 use Illuminate\Support\Facades\Gate;
-use Opcodes\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Facades\LogViewer;
 
 class DownloadFolderController
 {

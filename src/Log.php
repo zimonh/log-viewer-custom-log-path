@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Zimonh\LogViewer;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Utils\Utils;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Utils\Utils;
 
 class Log
 {

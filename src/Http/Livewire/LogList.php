@@ -1,15 +1,15 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Livewire;
+namespace Zimonh\LogViewer\Http\Livewire;
 
 use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithPagination;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Level;
-use Opcodes\LogViewer\LogReader;
-use Opcodes\LogViewer\PreferenceStore;
+use Zimonh\LogViewer\Exceptions\InvalidRegularExpression;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Level;
+use Zimonh\LogViewer\LogReader;
+use Zimonh\LogViewer\PreferenceStore;
 
 class LogList extends Component
 {

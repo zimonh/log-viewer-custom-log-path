@@ -1,7 +1,7 @@
 <?php
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogViewerService;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\LogViewerService;
 
 test('handles square brackets in the logs path', function ($folderPath) {
     // Get the original path inside which we'll create a dummy folder with square brackets

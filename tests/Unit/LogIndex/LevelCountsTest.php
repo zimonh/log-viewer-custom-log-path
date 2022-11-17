@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\Level;
+use Zimonh\LogViewer\Level;
 
 it('can return the counts for each severity level in the file', function () {
     $logIndex = createLogIndex(predefinedLogs: [

@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer\Tests;
+namespace Zimonh\LogViewer\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 use Livewire\LivewireServiceProvider;
-use Opcodes\LogViewer\LogViewerServiceProvider;
+use Zimonh\LogViewer\LogViewerServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -19,7 +19,7 @@ class TestCase extends Orchestra
         }
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Opcodes\\LogViewer\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Zimonh\\LogViewer\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

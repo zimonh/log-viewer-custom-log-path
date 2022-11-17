@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Zimonh\LogViewer;
 
 use Carbon\CarbonInterval;
 use Illuminate\Http\Request;

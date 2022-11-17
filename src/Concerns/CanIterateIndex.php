@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns;
+namespace Zimonh\LogViewer\Concerns;
 
 use ArrayIterator;
-use Opcodes\LogViewer\Direction;
+use Zimonh\LogViewer\Direction;
 
 trait CanIterateIndex
 {

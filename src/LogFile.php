@@ -1,14 +1,14 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Zimonh\LogViewer;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Events\LogFileDeleted;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\Utils\Utils;
+use Zimonh\LogViewer\Events\LogFileDeleted;
+use Zimonh\LogViewer\Exceptions\InvalidRegularExpression;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Utils\Utils;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class LogFile

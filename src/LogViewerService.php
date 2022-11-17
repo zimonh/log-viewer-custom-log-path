@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer;
+namespace Zimonh\LogViewer;
 
 use Composer\InstalledVersions;
 use Illuminate\Auth\Access\AuthorizationException;

@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\Direction;
+use Zimonh\LogViewer\Direction;
 
 test('direction is forward by default', function () {
     $logIndex = createLogIndex();

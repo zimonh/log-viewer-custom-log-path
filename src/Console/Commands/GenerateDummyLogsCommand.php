@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Console\Commands;
+namespace Zimonh\LogViewer\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

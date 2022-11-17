@@ -1,11 +1,11 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Zimonh\LogViewer\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\MultipleLogReader;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\MultipleLogReader;
 
 class SearchProgressController
 {

@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\File;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogIndex;
-use Opcodes\LogViewer\Tests\TestCase;
+use Zimonh\LogViewer\LogFile;
+use Zimonh\LogViewer\LogIndex;
+use Zimonh\LogViewer\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
 uses()

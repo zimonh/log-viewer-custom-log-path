@@ -129,7 +129,7 @@ You can limit who has access to the Log Viewer in several ways.
 You can limit access to the Log Viewer by providing a custom authorization callback to the `LogViewer::auth()` method within your `AppServiceProvider`, like so:
 
 ```php
-use Opcodes\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\Facades\LogViewer;
 
 /**
  * Bootstrap any application services.
@@ -205,7 +205,7 @@ You can limit the ability to download log files via [Laravel Gates](https://lara
 
 ```php
 use App\Models\User;
-use Opcodes\LogViewer\LogFile;
+use Zimonh\LogViewer\LogFile;
 use Illuminate\Support\Facades\Gate;
 
 /**
@@ -228,7 +228,7 @@ public function boot()
 You can also limit whether whole folders can be downloaded by defining a `downloadLogFolder` authorization gate:
 
 ```php
-use Opcodes\LogViewer\LogFolder;
+use Zimonh\LogViewer\LogFolder;
 
 //...
 
@@ -245,7 +245,7 @@ You can limit the ability to delete log files via [Laravel Gates](https://larave
 
 ```php
 use App\Models\User;
-use Opcodes\LogViewer\LogFile;
+use Zimonh\LogViewer\LogFile;
 use Illuminate\Support\Facades\Gate;
 
 /**
@@ -268,7 +268,7 @@ public function boot()
 You can also limit whether whole folders can be deleted by defining a `deleteLogFolder` authorization gate:
 
 ```php
-use Opcodes\LogViewer\LogFolder;
+use Zimonh\LogViewer\LogFolder;
 
 //...
 

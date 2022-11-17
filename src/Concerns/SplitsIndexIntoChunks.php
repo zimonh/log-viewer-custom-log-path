@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns;
+namespace Zimonh\LogViewer\Concerns;
 
 use Illuminate\Support\Facades\Cache;
-use Opcodes\LogViewer\Exceptions\InvalidChunkSizeException;
-use Opcodes\LogViewer\LogIndexChunk;
+use Zimonh\LogViewer\Exceptions\InvalidChunkSizeException;
+use Zimonh\LogViewer\LogIndexChunk;
 
 trait SplitsIndexIntoChunks
 {

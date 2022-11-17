@@ -1,10 +1,10 @@
 <?php
 
-namespace Opcodes\LogViewer\Http\Controllers;
+namespace Zimonh\LogViewer\Http\Controllers;
 
-use Opcodes\LogViewer\Facades\LogViewer;
-use Opcodes\LogViewer\LogFile;
-use Opcodes\LogViewer\LogReader;
+use Zimonh\LogViewer\Facades\LogViewer;
+use Zimonh\LogViewer\LogFile;
+use Zimonh\LogViewer\LogReader;
 
 class ScanFilesController
 {

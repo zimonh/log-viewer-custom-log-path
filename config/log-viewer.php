@@ -1,6 +1,6 @@
 <?php
 
-use Opcodes\LogViewer\Level;
+use Zimonh\LogViewer\Level;
 
 return [
 

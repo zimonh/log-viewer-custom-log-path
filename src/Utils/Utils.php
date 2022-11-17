@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Utils;
+namespace Zimonh\LogViewer\Utils;
 
 use Illuminate\Support\Str;
-use Opcodes\LogViewer\Exceptions\InvalidRegularExpression;
+use Zimonh\LogViewer\Exceptions\InvalidRegularExpression;
 
 class Utils
 {

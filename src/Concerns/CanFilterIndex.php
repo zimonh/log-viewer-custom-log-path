@@ -1,9 +1,9 @@
 <?php
 
-namespace Opcodes\LogViewer\Concerns;
+namespace Zimonh\LogViewer\Concerns;
 
 use Carbon\Carbon;
-use Opcodes\LogViewer\Level;
+use Zimonh\LogViewer\Level;
 
 trait CanFilterIndex
 {

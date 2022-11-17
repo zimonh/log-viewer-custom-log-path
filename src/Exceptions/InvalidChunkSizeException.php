@@ -1,6 +1,6 @@
 <?php
 
-namespace Opcodes\LogViewer\Exceptions;
+namespace Zimonh\LogViewer\Exceptions;
 
 use Exception;
 
