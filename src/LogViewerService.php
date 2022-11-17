@@ -208,6 +208,6 @@ class LogViewerService
             return 'unit-tests';
         }
 
-        return InstalledVersions::getPrettyVersion('zimonh/log-viewer') ?? 'dev-main';
+        return InstalledVersions::getPrettyVersion('zimonh/log-viewer-custom-log-path') ?? 'dev-main';
     }
 }
