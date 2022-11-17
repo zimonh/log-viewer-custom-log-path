@@ -1,5 +1,5 @@
 {
-    "name": "opcodesio/log-viewer",
+    "name": "zimonh/log-viewer-custom-log-path",
     "version": "v1.7.0",
     "description": "Fast and easy-to-use log viewer for your Laravel application",
     "keywords": [
@@ -14,8 +14,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Arunas Skirius",
-            "email": "arukomp@gmail.com",
+            "name": "Simon",
+            "email": "zim@gmail.com",
             "role": "Developer"
         }
     ],
