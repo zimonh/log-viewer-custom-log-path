@@ -54,7 +54,7 @@ Log Viewer helps you quickly and clearly see individual log entries, to **search
 To install the package via composer, Run:
 
 ```bash
-composer require opcodesio/log-viewer
+composer require zimonh/log-viewer-custom-log-path
 ```
 
 ### Usage
