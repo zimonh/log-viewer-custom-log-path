@@ -76,7 +76,7 @@ class LogViewerService
 
     public function basePathForLogs(): string
     {
-        return Str::finish(realpath(storage_path('logs')), DIRECTORY_SEPARATOR);
+        return config('log-viewer.path') ?? Str::finish(realpath(storage_path('logs')), DIRECTORY_SEPARATOR);
     }
 
     /**
